@@ -1,2 +1,2 @@
-FROM preshobpk/webpage/index.html
-COPY . /var/www/html
+FROM nginx
+COPY . /usr/share/nginx/html
